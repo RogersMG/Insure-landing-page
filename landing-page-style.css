@@ -12,6 +12,12 @@ h1, h2 {
   font-weight: 400;
   font-family: "DM Serif Display", serif;
 }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
 .container {
     margin: 0 auto;
     width: 90%;
