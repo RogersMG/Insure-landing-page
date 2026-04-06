@@ -231,7 +231,7 @@ margin: 5rem 0;
 }
 .pattern1 {
  left: 0;
- top:35rem;
+ top:30rem;
  bottom: 10rem;
  position: absolute;
 }
@@ -406,6 +406,7 @@ margin: 5rem 0;
   align-items: inherit;
 }
 .action_container {
+  z-index: 2;
   margin: 0 1.5rem;
 }
 .pattern4 {
