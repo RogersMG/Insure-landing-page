@@ -26,6 +26,10 @@ header {
 .mobile_image {
   display: none;
 }
+.mobile_imagepattern1 {
+  display: none;
+}
+
 .navigation {
   padding: 1.7rem;
   background-color: white;
@@ -85,6 +89,7 @@ list-style-type: none;
 .about_text   {
 max-width: 50%;
 margin: 5rem 0;
+position: relative;
 /* border: 1px solid yellow; */
 }
 .about_text h1 {
@@ -373,10 +378,23 @@ margin: 5rem 0;
     z-index: 1;
     display: block;
   }
-  .pattern1 {
-    top: 35rem;
-    position: absolute;
+   .mobile_imagepattern1 {
+    z-index: 1;
+     display: block;
+   z-index: 1;
+   top: -3rem;
+   left: -3rem;
+   bottom: auto;
+   position: absolute;
   }
+  /* .mobile_imagepattern1 {
+   display: block;
+   z-index: 1;
+   top: -3rem;
+   left: -3rem;
+   bottom: auto;
+   position: absolute;
+  } */
 .pattern2 {
   top: 55rem;
 }
